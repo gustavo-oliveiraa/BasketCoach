@@ -7,7 +7,7 @@ export default function MotivationScreen() {
 
   return (
     <ImageBackground
-      source={require('../../assets/motivation-background.png')} // Substitua pelo nome correto da imagem
+      source={require('../../assets/motivation-background.png')}
       style={styles.background}
     >
       <View style={styles.overlay}>

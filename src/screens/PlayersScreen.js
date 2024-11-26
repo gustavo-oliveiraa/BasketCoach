@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, TextInput, Button, FlatList, Text, TouchableOpacity, StyleSheet, Image, ImageBackground } from 'react-native';
+import { View, TextInput, FlatList, Text, TouchableOpacity, StyleSheet, Image, ImageBackground } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function PlayersScreen() {
@@ -39,7 +39,7 @@ export default function PlayersScreen() {
 
   return (
     <ImageBackground
-      source={require('../../assets/basketball-players-orange.png')} // Atualize com o nome correto da imagem
+      source={require('../../assets/basketball-players-orange.png')}
       style={styles.background}
     >
       <View style={styles.overlay}>

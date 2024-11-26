@@ -39,7 +39,7 @@ export default function TrainingsScreen() {
 
   return (
     <ImageBackground
-      source={require('../../assets/basketball-court.png')} // Caminho da sua imagem de fundo
+      source={require('../../assets/basketball-court.png')}
       style={styles.background}
     >
       <View style={styles.overlay}>
